@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="docs/images/remote_control.jpg" alt="ZX 教室远程控制" width="100%">
-</p>
-
 # 倒计时 · DJS 附属功能库
 
 本仓库存放 **倒计时·DJS** 主程序的附属功能：
@@ -9,6 +5,8 @@
 - **ZX 插件**：安装到主程序 `plugins` 目录，为电脑端提供远程控制服务。
 - **ZX 控制台（Windows）**：在电脑上管理多台已配对的电脑。
 - **ZX 控制台（Android）**：一台手机同时管理多台电脑，修改课程表、发送教师通知。
+
+这些组件不随主程序安装包安装，需要从本仓库 Releases 单独下载。远程控制要求设备与电脑在同一局域网，默认监听 `48700` 端口，并通过 `48690` 端口广播发现。
 
 主程序仓库：**[Countdown-DJS](https://github.com/GuZhi-233/Countdown-DJS)**
 
@@ -39,8 +37,6 @@
 - 电脑端生成 6 位配对码，需在电脑端二次确认。
 - 配对成功后保存设备令牌，后续连接无需重复输入配对码。
 - 所有错误提示均已中文化。
-
-<img src="docs/images/plugin_system.jpg" alt="插件与安全" width="100%">
 
 ---
 
