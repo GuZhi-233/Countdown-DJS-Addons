@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+.trae/
+build/
+dist/
+*.spec
+remote/android/build/
+remote/android/*.apk
+remote/android/*.idsig
+*.log

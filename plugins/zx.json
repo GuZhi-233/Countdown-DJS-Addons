@@ -1,0 +1,26 @@
+{
+  "name": "ZX",
+  "version": "2.0.1",
+  "build_version": "20261112B",
+  "author": "苗睿轩",
+  "description": "高中课程表悬浮窗、活动与上课下课灵动岛提醒、联网校时与远程控制台",
+  "api_version": 2,
+  "own_modules": ["zx.py"],
+  "permissions_v2": {
+    "baseline": ["UI_INJECT", "EVENT_LISTEN"],
+    "on_demand": [
+      {
+        "perm": "NETWORK_SOCKET",
+        "feature": "远程控制",
+        "title": "接受手机或电脑控制台的连接",
+        "reason": "开启远程控制后，在本机监听控制端口，并通过局域网广播发现同网段控制台"
+      },
+      {
+        "perm": "NOTIFICATION",
+        "feature": "课程提醒与教师通知",
+        "title": "发送上课、下课与教师通知提醒",
+        "reason": "在临近上课、下课或收到控制台发送的教师通知时通过灵动岛与置顶通知窗提示"
+      }
+    ]
+  }
+}
