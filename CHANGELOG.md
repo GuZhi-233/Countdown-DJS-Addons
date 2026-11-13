@@ -8,6 +8,7 @@
 - Windows 与 Android 控制台设置页同时列出两个项目主页。
 - Android 控制台版本号 2.0.1，versionCode 3。
 - Windows 安装包默认路径改为 `C:\ZXRemote`，安装前提示关闭安全软件。
+- Windows 安装包补全 FileDescription、ProductName、FileVersion 等版本信息。
 
 ## 2.0.0 - 2026-11-12
 
